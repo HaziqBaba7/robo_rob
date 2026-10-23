@@ -91,8 +91,8 @@
     <!-- Note that although visualise is set to true, it won't actually visualise the depth camera in gazebo. To see the preview, 
             try swapping "depth" to "camera"-->
 
-    <<!-- 2. Camera Sensor Definition on camera_link -->
-    
+    <!-- 2. Camera Sensor Definition on camera_link -->
+
     <gazebo reference="camera_link">
         <sensor name="camera" type="camera">
             <pose>0 0 0 0 0 0</pose>
